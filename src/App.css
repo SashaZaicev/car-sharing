@@ -1,116 +1,188 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 li {
-  list-style: none
+    list-style: none
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .container {
-  max-width: 1220px;
-  padding: 0 10px;
-  /*background-color: red;*/
-  margin: 0 auto;
+    max-width: 1220px;
+    padding: 0 10px;
+    /*background-color: red;*/
+    margin: 0 auto;
 }
 
 body {
-  color: #1B1818;
-  font-size: 16px;
-  line-height: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+    color: #1B1818;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 
 }
 
 .header {
-  background: #332208;
+    background: #332208;
 }
 
 .headerInner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
 .menuList {
-  display: flex;
+    display: flex;
 }
 
 .menuItem {
-  margin: 0 15px;
+    margin: 0 15px;
 }
 
 .menuListLink {
-  text-transform: uppercase;
-  color: #fefefe;
-  font-size: 18px;
-  line-height: 21px;
-  padding-bottom: 5px;
-  transition: all .5s;
-  border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 5px;
+    transition: all .5s;
+    border-bottom: 1px solid transparent;
 }
 
 .menuListLink:hover {
-  border-bottom: 1px solid #fefefe;
+    border-bottom: 1px solid #fefefe;
 }
 
 .phone {
-  font-size: 18px;
-  line-height: 21px;
-  color: #fefefe;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fefefe;
 }
 
 .topHeading {
-  display: flex;
-  padding: 50px 0 30px;
+    display: flex;
+    padding: 50px 0 30px;
 }
 
 .topContent {
-  padding-top: 90px;
-  text-align: center;
-  width: 50%;
+    padding-top: 90px;
+    text-align: center;
+    width: 50%;
 }
 
 .topTitle {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 58px;
-  margin: 0 auto 20px;
-  max-width: 455px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0 auto 20px;
+    max-width: 455px;
 }
 
 .topText {
-  font-size: 24px;
-  line-height: 28px;
-  margin: 0 auto 60px;
-  max-width: 470px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto 60px;
+    max-width: 470px;
 }
 
 .aplicationBtn {
-  text-transform: uppercase;
-  color: #fefefe;
-  background: #C5AC2D;
-  padding: 16px 19px 15px;
-  transition: all .5s;
-  border: 1px solid transparent;
+    text-transform: uppercase;
+    color: #fefefe;
+    background: #C5AC2D;
+    padding: 16px 19px 15px;
+    transition: all .5s;
+    border: 1px solid transparent;
 }
 
 .aplicationBtn:hover {
-  color: #C5AC2D;
-  background: #fefefe;
-  border: 1px solid #C5AC2D;
+    color: #C5AC2D;
+    background: #fefefe;
+    border: 1px solid #C5AC2D;
 }
 
+.topSlider {
+    width: 50%;
+}
 
+.topSliderText {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 100px;
+    text-align: right;
+}
+
+.topSliderImages {
+    width: 100%;
+    height: 100%;
+}
+
+.topSliderText span + span {
+    padding-left: 12px;
+}
+
+.topBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.topItems {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topItem {
+    border: 1px solid #1B1818;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.topItem:hover {
+    transform: scale(1.25);
+}
+
+.topLinks {
+    padding-right: 80px;
+}
+
+.topLink {
+    color: #1B1818;
+    border-bottom: 1px solid #1B1818;
+}
+
+.topLink + .topLink {
+    margin-left: 20px;
+}
+
+/*slider*/
+.carrousel_wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.carrousel_image {
+    /*background-size: cover;*/
+}

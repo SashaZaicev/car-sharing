@@ -2,7 +2,7 @@ import { Carousel } from 'antd';
 import s from "./carousel.module.css"
 import image from '../images/slider-img.png'
 
-const Slider = () => {
+const SliderOld = () => {
     return (
         <Carousel autoplay>
             <div>
@@ -21,4 +21,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default SliderOld;

@@ -4,13 +4,15 @@ import FirstSection from './components/FirstSection';
 import HeaderSection from './components/Header';
 
 function App() {
-  return (
-      <div className="App">
-        <HeaderSection/>
-        <FirstSection/>
+    return (
+        <div className="App">
 
-      </div>
-  );
+            <HeaderSection/>
+
+            <FirstSection/>
+
+        </div>
+    );
 }
 
 export default App;
