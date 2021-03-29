@@ -22,46 +22,11 @@ function FirstSection() {
                         <a className="aplicationBtn" href="#">Скачать приложение</a>
                     </div>
                     <div style={{
-                        height:`${window.innerHeight}px`,
-                        overflow:'hidden'
-                    }}  className="topSlider carrousel_wrapper carrousel_image">
+                        // height:`${window.innerHeight}px`,
+                        height: '600px',
+                        overflow: 'hidden'
+                    }} className="topSlider carrousel_wrapper carrousel_image">
                         <Slider/>
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        <span>4 грн/мин</span> <span>5 мест</span> <span>50 тыс. км пробег</span>*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        4 грн/мин 5 мест 50 тыс. км пробег*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        4 грн/мин 5 мест 50 тыс. км пробег*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        4 грн/мин 5 мест 50 тыс. км пробег*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        4 грн/мин 5 мест 50 тыс. км пробег*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
-                        {/*<div className="topSliderItem">*/}
-                        {/*    <img className='topSliderImages' src={imgSlider} alt=""/>*/}
-                        {/*    <p className="topSliderText">*/}
-                        {/*        4 грн/мин 5 мест 50 тыс. км пробег*/}
-                        {/*    </p>*/}
-                        {/*</div>*/}
                     </div>
                 </div>
                 <div className="topBottom">
