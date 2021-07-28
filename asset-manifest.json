@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/car-sharing/static/css/main.727b44a9.chunk.css",
+    "main.js": "/car-sharing/static/js/main.7fbb9a66.chunk.js",
+    "main.js.map": "/car-sharing/static/js/main.7fbb9a66.chunk.js.map",
+    "runtime-main.js": "/car-sharing/static/js/runtime-main.703eb90e.js",
+    "runtime-main.js.map": "/car-sharing/static/js/runtime-main.703eb90e.js.map",
+    "static/js/2.bde8f4b6.chunk.js": "/car-sharing/static/js/2.bde8f4b6.chunk.js",
+    "static/js/2.bde8f4b6.chunk.js.map": "/car-sharing/static/js/2.bde8f4b6.chunk.js.map",
+    "static/js/3.6a7d105b.chunk.js": "/car-sharing/static/js/3.6a7d105b.chunk.js",
+    "static/js/3.6a7d105b.chunk.js.map": "/car-sharing/static/js/3.6a7d105b.chunk.js.map",
+    "index.html": "/car-sharing/index.html",
+    "static/css/main.727b44a9.chunk.css.map": "/car-sharing/static/css/main.727b44a9.chunk.css.map",
+    "static/js/2.bde8f4b6.chunk.js.LICENSE.txt": "/car-sharing/static/js/2.bde8f4b6.chunk.js.LICENSE.txt",
+    "static/media/Rectangle 35.0301e168.png": "/car-sharing/static/media/Rectangle 35.0301e168.png",
+    "static/media/Rectangle.3c779108.png": "/car-sharing/static/media/Rectangle.3c779108.png",
+    "static/media/cadillac.19d8d6dc.png": "/car-sharing/static/media/cadillac.19d8d6dc.png",
+    "static/media/chevrolet.c3c7584e.png": "/car-sharing/static/media/chevrolet.c3c7584e.png",
+    "static/media/facebook.b97b1397.svg": "/car-sharing/static/media/facebook.b97b1397.svg",
+    "static/media/icon-1.bc6b350e.svg": "/car-sharing/static/media/icon-1.bc6b350e.svg",
+    "static/media/icon-2.a214b1df.svg": "/car-sharing/static/media/icon-2.a214b1df.svg",
+    "static/media/icon-3.f9173ba8.svg": "/car-sharing/static/media/icon-3.f9173ba8.svg",
+    "static/media/instagram.a2a2eae5.svg": "/car-sharing/static/media/instagram.a2a2eae5.svg",
+    "static/media/lux-logo.0fbfb9c1.svg": "/car-sharing/static/media/lux-logo.0fbfb9c1.svg",
+    "static/media/App.css": "/car-sharing/static/media/play.0918d742.svg",
+    "static/media/slider-img.2e2ded1d.png": "/car-sharing/static/media/slider-img.2e2ded1d.png",
+    "static/media/youtube.bc51d397.svg": "/car-sharing/static/media/youtube.bc51d397.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.703eb90e.js",
+    "static/js/2.bde8f4b6.chunk.js",
+    "static/css/main.727b44a9.chunk.css",
+    "static/js/main.7fbb9a66.chunk.js"
+  ]
+}
